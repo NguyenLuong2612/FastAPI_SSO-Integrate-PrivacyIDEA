@@ -33,8 +33,12 @@ To create a token using `pi-manage`, use the following commands:
 
 ```sh
 pi-manage api createtoken -r admin -d 3650 -u admin
+```
+
+```sh
 pi-manage api createtoken -r validate -d 3650 -u admin
 ```
+
 `After create token, add it into /backend/.env. Then reboot server`
 
 # PrivacyIDEA Config > Users
