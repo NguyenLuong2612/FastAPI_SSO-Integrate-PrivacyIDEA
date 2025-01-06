@@ -58,4 +58,4 @@ pi-manage api createtoken -r validate -d 3650 -u admin
 - `Docker to containerize the application`
 
 # References
-> [PrivacyIDEA](https://privacyidea.readthedocs.io/en/latest/index.html)
+> [PrivacyIDEA Documentation](https://privacyidea.readthedocs.io/en/latest/index.html)
