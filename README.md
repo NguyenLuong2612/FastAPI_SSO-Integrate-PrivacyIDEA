@@ -43,7 +43,7 @@ pi-manage api createtoken -r validate -d 3650 -u admin
 - `Below this page, configure mapping to your table and database. Then set the default realm or merge (It's up to you).`
 
 # Note
-> This is a simple test of FastAPI combined with OAuth2 and integrated with PrivacyIDEA (for 2FA).  
+> This is a simple test of FastAPI combined with OAuth2 and integrated with PrivacyIDEA (for 2FA). \n
 > PrivacyIDEA (PI) has a large number of functions; my project uses only a small part of PI, and its objective is just for testing. (PrivacyIDEA + KeyCloak + LDAP/Active Directory is a popular approach.)
 > In database accounts and users were created but can't login immediately cuz PI has a special encryption mechanism to secure user passwords, an extra customized endpoint is needed to insert user information into both the Account and Person tables.
 > PrivacyIDEA web login __[https://10.128.0.23/](https://10.128.0.23/)__ **(user: admin; password: 123)**
