@@ -1,4 +1,4 @@
-# Config > Policy
+# PrivacyIDEA Config > Policy
 ## Scope: Authentication
 - `challenge_response`: totp
 - `otppin`: userstore
@@ -37,7 +37,7 @@ pi-manage api createtoken -r validate -d 3650 -u admin
 ```
 `After create token, add it into /backend/.env. Then reboot server`
 
-# Config > Users
+# PrivacyIDEA Config > Users
 ## Add New Resolver
 - `In this situation, MySQL was chosen to store user data.`
 - `Below this page, configure mapping to your table and database. Then set the default realm or merge (It's up to you).`
