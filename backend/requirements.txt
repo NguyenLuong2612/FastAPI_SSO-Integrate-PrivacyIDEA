@@ -1,0 +1,10 @@
+uvicorn
+python-dotenv
+fastapi
+pytz
+sqlalchemy
+pymysql
+requests
+cryptography
+fastapi-limiter
+pyjwt
