@@ -59,6 +59,7 @@ pi-manage api createtoken -r validate -d 3650 -u admin
 - `PrivacyIDEA for 2FA`
 - `FastAPI OAuth2`
 - `Vagrant for creating the initial environment and automating the app`
+- `VMWare`
 - `Ubuntu Server 24.04`
 - `MySQL`
 - `Redis (just used a library for rate limiting)`
